@@ -16,7 +16,7 @@ const cities = document.querySelectorAll('.city');
 
 let cityInput = "London";
 let apiKey = 'eac3232e886340578bc205914253001';
-let apiEndpoint = 'http://api.weatherapi.com/v1/current.json';
+let apiEndpoint = 'https://api.weatherapi.com/v1/current.json';
 
 cities.forEach((city) => {
   city.addEventListener('click', (e) => {
